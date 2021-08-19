@@ -1,0 +1,20 @@
+{
+  "name": "_",
+  "description": "_",
+  "repository": "https://github.com/AkinYoungSoftware/nikahbot.git",
+  "logo": "",
+  "keywords": ["telegram", "game", "pyrogram","telegram bot"],
+  "env": {
+     "STRING": {
+      "description": "String Seasonsu Girin."
+    },
+    "EKLENCEK_CHAT_ID": {
+      "description": "Uyelerin Ekleneceği Grup Id"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

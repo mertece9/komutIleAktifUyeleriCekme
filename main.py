@@ -20,7 +20,7 @@ async def _(b,m):
 
 	for i in await m.chat.get_members():
 		if i.user.id not in GONDERILEN:
-			if i.user.status in ["recently", "online"]:
+			if i.user.status in ["online"]:
 				try:
 					await b.add_chat_members(EKLENCEK_CHAT_ID, i.user.id)
 					GONDERILEN.append(i.user.id)
